@@ -91,5 +91,22 @@ c = 2
 สามารถ ดู case เพิ่มเติมได้[ที่นี่](https://github.com/ohmreborn/term_compro_113/tree/main/term_project_3/testcase) และโปรดอย่าพึ่งดูเฉลย
 
 
+```python
+def readMat(fn):
+  m = []
+  with open(fn) as fp:
+    for line in fp:
+      m.append(line.strip().split(' '))
+  return m
 
-https://github.com/ohmreborn/term_compro_113/blob/cf7d96d512fb20ed4da563740344d2dcf5f5d870/term_project_3/elab_give.py
+def printMat(m):
+  for i in range(len(m)):
+    row = ''
+    for j in range(len(m[0])):
+      row += f'{m[i][j]:^8}'
+    print(row)
+  print()
+```
+```python
+### submit your code
+```

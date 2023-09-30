@@ -17,7 +17,7 @@
 
 จงสร้าง ฟังก์ชัน q1 กับ q2 โดยที่ 
 * q1 5 อันดับ rating หนังที่มี Harrison Ford แสดงโดยไม่มี 'Steven Spielberg' เป็นผู้กำกับ
-* q2 หนังที่ี Harrison Ford และ Tommy Lee Jones แสดงโดยไม่มี 'Steven Spielberg' และ George Lucas เป็นผู้กำกับ
+* q2 หนังที่ี Harrison Ford และ Tommy Lee Jones แสดงโดยไม่มี 'Steven Spielberg' และ 'George Lucas' เป็นผู้กำกับ
 ```python
 >>> q1()
 Andrew Davis

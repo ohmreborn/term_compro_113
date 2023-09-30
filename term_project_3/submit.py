@@ -1,3 +1,6 @@
+from elab_give import *
+# note this import using for make code works
+# if you want to submit don't import 
 class Fraction():
     def __init__(self,num,denum=1):
         self.num = int(num)

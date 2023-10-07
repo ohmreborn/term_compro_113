@@ -6,6 +6,8 @@ numpy คือ ไลเบอรี่ที่ พวกเราชอบใ
 >>> A
 matrix([[1, 2, 3]
         [4, 5, 6]])
+>>> type(A)
+>>> <class '__main__.Matrix'>
 ```
 ### case 2
 ```python

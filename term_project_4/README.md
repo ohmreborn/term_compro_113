@@ -62,8 +62,10 @@ matrix([[-6, -6, -6]
         [-6, -6, -6]])
 >>> A + B.T
 raise Matrix_addition_error
+"ERROR: Cannot add two input matrices!"
 >>> A - B.T
 raise Matrix_subtraction_error
+"ERROR: Cannot subtract two input matrices!"
 ```
 ### case 5
 ```python
@@ -88,6 +90,7 @@ matrix([[2, -6, 8, 6]
         [-6, 6, 8, 12]])
 >>> A * A
 raise Martix_multiplication_error
+"ERROR: Cannot multiply two input matrices!"
 ```
 ### case 6
 ```python
